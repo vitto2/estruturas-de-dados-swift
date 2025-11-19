@@ -1,11 +1,3 @@
-# estruturas-de-dados-swift
-
-Com base no seu texto original e no contexto fornecido (que abrange **Optionals** e outras estruturas como **Arrays, Sets, Dicionários, Enums e Tuplas**), adaptei o README para refletir o escopo **ampliado** dos seus desafios.
-
-O novo README mantém a estrutura clara e as seções informativas que você já tinha, mas com um título e conteúdo que englobam todos os tópicos.
-
------
-
 # 🚀 Desafios Integrados de Swift: Estruturas Essenciais e Segurança de Tipos
 
 Repositório contendo desafios práticos sobre **Optionals** e as principais estruturas de dados em Swift: **Arrays, Sets, Dicionários, Enums e Tuplas**. O foco é na aplicação integrada desses conceitos para simular projetos do mundo real.
