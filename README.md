@@ -103,6 +103,3 @@ Este projeto está sob a licença MIT - veja o arquivo `LICENSE` para detalhes.
 
 Desenvolvido como parte dos estudos avançados de Swift e desenvolvimento iOS.
 
------
-
-O que achou desta adaptação? Gostaria de adicionar a seção dos 15 desafios resumidos (como no primeiro README) ou está bom assim?
