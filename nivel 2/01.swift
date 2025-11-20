@@ -25,11 +25,11 @@ let userPermissions: [String : Set<Permission>] = [
     ]
 ]
 
-func canDelete(username: String) { 
- if let setPermission = userPermissions[username] {
-        print(setPermission.contains(.delete))
- }
+func canDelete(username: String) -> Bool { 
+   let hasDeletePermission: Bool =  userPermissions[username]?.contains(.delete) ?? false
+
+   return hasDeletePermission
 }
 
 
-canDelete(username: "visla")
+print(canDelete(username: "visla"))
