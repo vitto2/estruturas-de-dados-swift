@@ -11,7 +11,7 @@ let oldFollows: Set<String> = [
     "geekplanet_oficial"
 ]
 let currentFollows: [String] = [
-     "tech_vibes_br",
+    "tech_vibes_br",
     "gourmet_na_madrugada",
     "viajanteurbano_",
     "pixel_creator",
@@ -20,6 +20,9 @@ let currentFollows: [String] = [
     "futvitor22", 
 ]
 
-let currentFollowsFilter: Set<String> = Set(currentFollows)
+let currentFollowsSet: Set<String> = Set(currentFollows)
+let dontFollowCurrently = oldFollows.subtracting(currentFollowsSet)
+let newFollows = currentFollowsSet.subtracting(oldFollows)
 
-print(currentFollowsFilter)
+print("Usuários que você parou de seguir: \(dontFollowCurrently.joined(separator: ", "))")
+print("Usuários novos que voce está seguindo: \(newFollows.joined(separator: ", "))")
